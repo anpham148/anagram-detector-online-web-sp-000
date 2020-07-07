@@ -5,4 +5,8 @@ class Anagram
     @word = word
   end
 
+  def match(arr)
+    the_word = @word.split("")
+  end
+
 end
