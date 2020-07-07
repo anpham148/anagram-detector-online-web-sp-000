@@ -11,9 +11,9 @@ class Anagram
     arr.each do |word1|
       result = word1.split("")
       result.sort == the_word.sort ? result : nil
-      result
     end
-    # binding.pry
+    result
+    binding.pry
   end
 
 end
