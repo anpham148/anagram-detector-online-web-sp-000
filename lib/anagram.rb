@@ -8,6 +8,7 @@ class Anagram
 
   def match(arr)
     the_word = @word.split("")
+    binding.pry
   end
 
 end
