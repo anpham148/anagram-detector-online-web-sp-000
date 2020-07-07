@@ -9,8 +9,7 @@ class Anagram
   def match(arr)
     the_word = @word.split("")
     arr.each do |word1|
-      result = word1.split("")
-      result.sort == the_word.sort ? result : nil
+      word1.split("").sort == the_word.sort ? word1 : nil
     end
     result
     binding.pry
