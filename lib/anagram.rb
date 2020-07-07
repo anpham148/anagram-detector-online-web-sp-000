@@ -10,7 +10,7 @@ class Anagram
     result = nil
     the_word = @word.split("")
     arr.each do |word1|
-      word1.split("").sort == the_word.sort ? result = word1 :result
+      word1.split("").sort == the_word.sort ? result = word1 : result
 
     end
     result
