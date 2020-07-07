@@ -13,7 +13,6 @@ class Anagram
       word1.split("").sort == the_word.sort ? result = word1 : result
     end
     result
-    binding.pry
   end
 
 end
